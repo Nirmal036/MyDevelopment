@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-29T14:06:01.697Z",
+        "line": 4,
+        "name": "Completing the given form",
+        "description": "",
+        "id": "selenium-code-to-fill-the-given-form;completing-the-given-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 108229208600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launches the Chrome browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitionfiles.Login.lauchbrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "io.cucumber.core.exception.CucumberException: Could not convert arguments for step [^User enters the website url$] defined at \u0027stepdefinitionfiles.Sample.navigateToWebsite(java.lang.String)\u0027.\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.couldNotConvertArguments(PickleStepDefinitionMatch.java:112)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:56)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\nCaused by: io.cucumber.datatable.CucumberDataTableException: Can\u0027t convert DataTable to java.lang.String. The table contained more then one item: [website, https://www.seleniumeasy.com/test/input-form-demo.html]\r\n\tat io.cucumber.datatable.CucumberDataTableException.cantConvertTo(CucumberDataTableException.java:22)\r\n\tat io.cucumber.datatable.DataTableTypeRegistryTableConverter.toSingleton(DataTableTypeRegistryTableConverter.java:124)\r\n\tat io.cucumber.datatable.DataTableTypeRegistryTableConverter.convert(DataTableTypeRegistryTableConverter.java:91)\r\n\tat io.cucumber.datatable.DataTable.convert(DataTable.java:360)\r\n\tat io.cucumber.core.stepexpression.StepExpressionFactory.lambda$createExpression$0(StepExpressionFactory.java:66)\r\n\tat io.cucumber.core.stepexpression.DataTableArgument.getValue(DataTableArgument.java:19)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:47)\r\n\t... 32 more\r\n",
+              "duration": 1741511300,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User enters the website url",
+            "match": {
+              "location": "stepdefinitionfiles.Sample.navigateToWebsite(java.lang.String)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "website"
+                ]
+              },
+              {
+                "cells": [
+                  "https://www.seleniumeasy.com/test/input-form-demo.html"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User should be able to access the webpage",
+            "match": {
+              "location": "stepdefinitionfiles.Sample.userShouldBeAbleToAccessTheWebpage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User completes the input form",
+            "match": {
+              "location": "stepdefinitionfiles.Sample.userCompletesTheInputForm()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Selenium Code to fill the given form",
+    "description": "  Description : Writing the Selenium code to fill all the given fields in the form",
+    "id": "selenium-code-to-fill-the-given-form",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Sample.feature",
+    "tags": []
+  }
+]
